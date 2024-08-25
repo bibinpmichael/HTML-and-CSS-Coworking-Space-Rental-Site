@@ -1,0 +1,90 @@
+body {
+    font-family: "Montserrat", sans-serif; /* Sets the default font */
+    background: #e5e7eb; /* Light grey background for the entire page */
+    color: #282828; /* Default text color */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+.container{
+    background: white; /* Background color for the container */
+    width: 450px; /* Fixed width for the container */
+    margin: 0 auto; /* Centers the container horizontally */
+    position: relative; /* Enables positioning of child elements relative to this container */
+}
+
+header{
+    background: #282828; /* Dark background for the header */
+    color: whitesmoke; /* Light text color for readability */
+}
+
+.navigation{
+    margin-top: 0; /* Removes default top margin */
+    margin-bottom: 0; /* Removes default bottom margin */
+    padding: 20px; /* Adds padding around navigation items */
+    display: flex; /* Uses flexbox for layout */
+    align-items: center; /* Vertically aligns items in the navigation */
+    gap: 10px; /* Spaces out items */
+    list-style: none; /* Removes default list styling */
+}
+
+.logo-txt{
+    font-size: 18px; /* Sets size of the logo text */
+    font-weight: 700; /* Makes the logo text bold */
+}
+
+.logo, .menu-burger{
+    width: 25px; /* Sets a fixed width for logos */
+}
+
+.align-right{
+    margin-left: auto; /* Pushes the item to the right */
+}
+
+h1{
+    font-size: 40px; /* Large font size for the main heading */
+    font-weight: 400; /* Normal font weight for the heading */
+    margin: 30px 25px; /* Adds margin around the heading */
+}
+
+.workplace-img{
+    width: 100%; /* Makes the image take up 100% of its container's width */
+    display: block; /* Ensures the image is a block element to fit the width properly */
+}
+
+.workplace-details{
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Distributes space between and around content items */
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Spaces out items */
+    margin: 0 25px; /* Horizontal margin */
+}
+
+.exclusive-banner{
+    background: #cd6858; /* Background color for the exclusive banner */
+    color: whitesmoke; /* Text color for readability */
+    padding: 10px; /* Padding around the text */
+    position: absolute; /* Positions the banner absolutely within its parent */
+    top: 0; /* Aligns the banner at the top of its parent */
+    left: 0; /* Aligns the banner at the left of its parent */
+}
+
+.listings{
+    position: relative; /* Allows absolute positioning of children */
+}
+
+.btn{
+    background: #cd6858; /* Background color for buttons */
+    border: none; /* Removes border */
+    color: whitesmoke; /* Text color for readability */
+    font-weight: 700; /* Bold text */
+    padding: 5px 10px; /* Padding around the text */
+    margin: auto; /* Centers the button */
+}
+
+footer{
+    background: #282828; /* Dark background for the footer */
+    color: whitesmoke; /* Light text color for readability */
+    padding: 10px; /* Padding inside the footer */
+    text-align: center; /* Centers the text inside the footer */
+}
